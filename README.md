@@ -8,30 +8,30 @@
  list of tables for book store
 lookup :
 
- 1. shop details
+ 1. shop details-
 		state
 		country
 		branches- area names 
 	
- 2. employee details
+ 2. employee details-
 		id-proof-aadhar,ration card etc..
 		graduation- 12th, degree-bse,msc...
 		City	
 		State
 		Country	
-3. book details
+3. book details-
 		type-Young, Adult, Mystery ,Fiction,SciFi/Fantasy,Childrens,Romance
 
-4.  publisher details
+4.  publisher details-
 		City,	
 		State,
 		Country,	
-5.  campaign 
+5.  campaign- 
 		campaign type-FB,Twitter,hoardings,newspaper ads, whatsapp etc..
 		
 		
 Master:
- 1. Shop details
+ 1. Shop details-
 		owner name,
 		shop address,
 		branches,
@@ -41,7 +41,7 @@ Master:
 		phone,
 		landline,
 		
-4. 	Book details
+2. Book details-
 		BookID	(PK),
 		Title,	
 		AuthID(FK),
@@ -51,14 +51,14 @@ Master:
 		Publication Date,	
 		Pages,
 		Price,
-5.	publishers details
+3.publishers details-
 		PubID (PK),	
 		Publishing House,	
 		City,	
 		State,
 		Country,	
 		Year Established,
-6.Author details
+4.Author details-
 		AuthID	(PK),
 		First Name,	
 		Last Name,
@@ -66,7 +66,7 @@ Master:
 		
 TRANSACTION:
 
-1. Branchwise-Sale
+1. Branchwise-Sale-
 		BranchID,
 		CustomerID(FK),
 		Sale Date,
@@ -77,7 +77,7 @@ TRANSACTION:
 		OrderID,
 		
 
-2.  Campaign
+2.  Campaign-
 		campaign, type-FB,Twitter, other social media,
 		campaign ID,
 		money spent,
@@ -85,7 +85,7 @@ TRANSACTION:
 		current status,
 		reviews and response,
 		campaign date,
-3. online sales
+3. online sales-
 		orderid,
 		orderdate,
 		shipdate,
@@ -101,16 +101,16 @@ TRANSACTION:
 		shippingcost,
 		amount,
 		countrycode,
-4. Campaign result
+4. Campaign result-
 		campaign type,
 		capmaign id,
 		count of customers,
-5.Returns
+5.Returns-
 		returned(Y/N),
 		orderid,
 		country,
 		amount,
-6.Rating
+6.Rating-
 		BookID,
 		Rating,
 		CustomerID,
