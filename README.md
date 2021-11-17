@@ -51,14 +51,14 @@ Master:
 		Publication Date,	
 		Pages,
 		Price,
-3.publishers details-
+3. Publishers details-
 		PubID (PK),	
 		Publishing House,	
 		City,	
 		State,
 		Country,	
 		Year Established,
-4.Author details-
+4. Author details-
 		AuthID	(PK),
 		First Name,	
 		Last Name,
@@ -77,7 +77,7 @@ TRANSACTION:
 		OrderID,
 		
 
-2.  Campaign-
+2. Campaign-
 		campaign, type-FB,Twitter, other social media,
 		campaign ID,
 		money spent,
@@ -85,7 +85,7 @@ TRANSACTION:
 		current status,
 		reviews and response,
 		campaign date,
-3. online sales-
+3. Online sales-
 		orderid,
 		orderdate,
 		shipdate,
@@ -105,12 +105,12 @@ TRANSACTION:
 		campaign type,
 		capmaign id,
 		count of customers,
-5.Returns-
+5. Returns-
 		returned(Y/N),
 		orderid,
 		country,
 		amount,
-6.Rating-
+6. Rating-
 		BookID,
 		Rating,
 		CustomerID,
